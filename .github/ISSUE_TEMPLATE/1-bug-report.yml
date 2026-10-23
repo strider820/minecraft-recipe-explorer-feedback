@@ -1,0 +1,42 @@
+name: Bug report
+description: Something on the site is wrong, broken or displays badly.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search existing issues first; if yours is already there, add a 👍 or a comment instead.
+  - type: input
+    id: link
+    attributes:
+      label: Page link
+      description: Copy it from your address bar so I can open exactly what you saw.
+      placeholder: https://minecraft.strider820.me/...
+    validations:
+      required: true
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack and version
+      placeholder: e.g. All the Mods 10 8.2
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Paste or drag images here if they show the problem.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      description: Helpful if it looks like a display issue.
+      placeholder: e.g. Chrome on Windows, Safari on iPhone
