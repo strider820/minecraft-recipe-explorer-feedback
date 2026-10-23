@@ -1,0 +1,34 @@
+name: Modpack request
+description: Ask for a modpack to be added to the site.
+title: "[Modpack]: "
+labels: ["modpack request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. If the pack is already requested, add a 👍 to vote for it instead of opening a new one.
+  - type: input
+    id: name
+    attributes:
+      label: Modpack name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: CurseForge or Modrinth link
+      placeholder: https://www.curseforge.com/minecraft/modpacks/...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version you play
+      placeholder: e.g. 1.4.0
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Optional. E.g. which mods or recipe types matter most to you.

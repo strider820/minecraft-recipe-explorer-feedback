@@ -1,0 +1,46 @@
+name: Mod owner request
+description: For mod authors, about how your mod's icons, recipes or other content appear on the site.
+title: "[Mod owner]: "
+labels: ["mod owner"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for getting in touch! Use this form to grant or decline permission for your mod's icons, ask for something to be shown differently, or ask for your mod's content to be removed.
+
+        Prefer to talk privately? Message **@strider820** on Discord.
+  - type: input
+    id: mod
+    attributes:
+      label: Mod name
+    validations:
+      required: true
+  - type: input
+    id: mod-link
+    attributes:
+      label: Mod page link
+      description: CurseForge, Modrinth or source repository, so I can confirm you're the author.
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: What would you like?
+      options:
+        - Permission granted to show my mod's icons
+        - Please don't show my mod's icons (recipes are fine)
+        - Change how my mod's content is shown
+        - Remove my mod's content from the site
+        - Question or something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Any conditions (e.g. credit wording), what should change, or your question.
+  - type: input
+    id: contact
+    attributes:
+      label: Other contact (optional)
+      description: Discord or email if you'd like a private reply. Note this issue is public.

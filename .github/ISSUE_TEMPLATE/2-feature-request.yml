@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest something new or a change to how the site works.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first and add a 👍 to ones you want rather than opening a duplicate.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or problem, not just the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would this feature help?
+      description: What would you like the site to do?
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Examples from other tools (JEI, EMI, calculators), mockups, screenshots.
