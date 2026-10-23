@@ -6,6 +6,10 @@ This repo is the public place for bug reports, feature requests and modpack requ
 
 The app's source code is not in this repo; it only holds issues.
 
+To get started, click **[New issue](https://github.com/strider820/minecraft-recipe-explorer-feedback/issues/new/choose)**
+and pick a form: **Bug report**, **Feature request**, **Modpack request** or **Mod owner request**.
+Each form asks for the details below.
+
 ## Reporting a bug
 Open an issue and include:
 - The page link (copy it from your address bar)
@@ -23,8 +27,8 @@ Open an issue with the pack name, its CurseForge or Modrinth link, and the versi
 👍 existing requests to vote for them.
 
 ## Mod authors
-If you'd like your mod's icons or recipes handled differently (or removed), open an issue or reach out
-on Discord: **@strider820**.
+If you'd like to grant or decline permission for your mod's icons, or have your mod's icons or recipes
+handled differently (or removed), open a **Mod owner request** or reach out on Discord: **@strider820**.
 
 ## Notes
 - Be kind; this is a one-person hobby project.
